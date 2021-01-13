@@ -1,18 +1,35 @@
 *{margin: 0;padding: 0;}
-
+html{font-size:5.5%; }
+@media (min-width: 576px) {
+  html{font-size:10.5%; }
+}
+@media (min-width: 768px) {
+  html{font-size:42.5%; }
+}
+@media (min-width: 992px) {
+  html{font-size:52.5%; }
+}
+@media (min-width: 1200px) {
+  html{font-size:62.5%; }
+}
 .MuLuBg{
 	position: fixed;
 	left: 0;top: 0;
 	width: 100%;
+	z-index: -1;
+	box-shadow: 0 500px 1000px #000 inset;
 }
 .top{
 	width: 100%;
 }
 .MuLuBg{
-	z-index: -1;
+	
 }
 body{
-	
+	background-color: #000;
+}
+.main{
+	width: 100%;
 }
 .left{
 	
@@ -25,7 +42,7 @@ body{
 	
 }
 .right .ulHeader{
-	font-size: 10px;
+	font-size: 1rem;
 	border-bottom: 1px rgba(0,0,0,0.6) solid;
 	padding-bottom: 5px;
 }
@@ -47,7 +64,7 @@ body{
 }
 .right ul li a{
 	color: #fff;
-	font-size: 15px;
+	font-size: 1.5rem;
 	font-family: '宋体';	
 	margin: 10px 0;
 	font-weight: bold;
