@@ -1,0 +1,74 @@
+*{margin: 0;padding: 0;}
+
+.MuLuBg{
+	position: fixed;
+	left: 0;top: 0;
+	width: 100%;
+}
+.top{
+	width: 100%;
+}
+.MuLuBg{
+	z-index: -1;
+}
+body{
+	
+}
+.left{
+	
+}
+.right{
+	
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	padding: 5px 15px;
+	
+}
+.right .ulHeader{
+	font-size: 10px;
+	border-bottom: 1px rgba(0,0,0,0.6) solid;
+	padding-bottom: 5px;
+}
+.right ul{
+	list-style: none;
+	transition:all 1s;
+	height: 450px;
+	overflow: auto;
+}
+
+.right ul a.useful{
+	text-shadow: rgb(37, 0, 225) 0px 0px 4px, 
+				rgb(37, 0, 225) 0px 0px 3px, 
+				rgb(37, 0, 225) 0px 0px 2px, 
+				rgb(37, 0, 225) 0px 0px 1px;
+	color: rgb(119, 167, 255) !important;
+					
+					
+}
+.right ul li a{
+	color: #fff;
+	font-size: 15px;
+	font-family: '宋体';	
+	margin: 10px 0;
+	font-weight: bold;
+	transition:all 1s;
+	text-shadow: rgb(0, 0, 0) 0px 0px 4px, 
+					rgb(0, 0, 0) 0px 0px 3px, 
+					rgb(0, 0, 0) 0px 0px 2px, 
+					rgb(0, 0, 0) 0px 0px 1px;
+}
+.right ul li a:hover{
+	text-decoration: underline;
+	text-shadow: rgb(255, 0, 0) 0px 0px 5px, 
+					rgb(255, 0, 0) 0px 0px 10px, 
+					rgb(255, 0, 0) 0px 0px 15px, 
+					rgb(255, 0, 0) 0px 0px 30px, 
+					rgb(255, 0, 0) 0px 0px 40px;
+}
+.right ul li span{
+	color: #b6ff02;
+}
+
+.child{
+	margin-left: 5%;
+}
