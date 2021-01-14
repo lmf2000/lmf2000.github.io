@@ -1,13 +1,19 @@
 *{margin: 0;padding: 0;}
 html{font-size:1%; }
+.mainMenu li img{
+	  width: 10px;height: 10px;
+ }
 @media (min-width: 576px) {
   html{font-size:10.5%; }
   .mainMenu li img{
-	  width: 10px;height: 10px;
+	  width: 14px;height: 14px;
   }
 }
 @media (min-width: 768px) {
   html{font-size:42.5%; }
+  .mainMenu li img{
+  	  width: 24px;height: 24px;
+  }
 }
 @media (min-width: 992px) {
   html{font-size:52.5%; }
@@ -15,6 +21,7 @@ html{font-size:1%; }
 @media (min-width: 1200px) {
   html{font-size:62.5%; }
 }
+
 .MuLuBg{
 	position: fixed;
 	left: 0;top: 0;
