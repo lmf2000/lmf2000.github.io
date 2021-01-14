@@ -32,9 +32,6 @@ html{font-size:1%; }
 .top{
 	width: 100%;
 }
-.MuLuBg{
-	
-}
 body{
 	background-color: #000;
 }
@@ -55,7 +52,7 @@ body{
 .right .ulHeader{
 	font-size: 1rem;
 	border-bottom: 1px rgba(0,0,0,0.6) solid;
-	padding-bottom: 5px;
+	padding-bottom: 1%;
 }
 .right ul{
 	list-style: none;
@@ -73,11 +70,13 @@ body{
 					
 					
 }
+.right ul li{
+	margin-top: 1%;
+}
 .right ul li a{
 	color: #fff;
 	font-size: 1.5rem;
 	font-family: '宋体';	
-	margin: 10px 0;
 	font-weight: bold;
 	transition:all 1s;
 	text-shadow: rgb(0, 0, 0) 0px 0px 4px, 
