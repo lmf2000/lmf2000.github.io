@@ -40,16 +40,17 @@ body{
 }
 .main{
 	width: 100%;
+	
 }
 .left{
-	
+	background-color: rgba(0,0,0,0.5);
+	border-right: rgba(144,144,144,1) solid 1px;
 }
 .right{
 	
 	background-color: rgba(0,0,0,0.5);
 	color: #fff;
-	padding: 5px 15px;
-	
+	padding: 1%;
 }
 .right .ulHeader{
 	font-size: 1rem;
